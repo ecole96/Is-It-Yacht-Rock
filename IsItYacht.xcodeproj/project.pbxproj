@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431074BC214D70610082B5FB /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431074BB214D70610082B5FB /* Song.swift */; };
+		431A26952141D8E60058EF4E /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F30CC12141D33C00DB6F61 /* libACRCloud_IOS_SDK.a */; };
+		43210145214F588000652763 /* db.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43210144214F588000652763 /* db.plist */; };
+		43210147214F5BCA00652763 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43210146214F5BCA00652763 /* SongCell.swift */; };
+		434484922148B3E400C080DE /* DBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434484912148B3E400C080DE /* DBViewController.swift */; };
+		43939B0E215014290079A0FD /* DBEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939B0C215014290079A0FD /* DBEntry+CoreDataClass.swift */; };
+		43939B0F215014290079A0FD /* DBEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939B0D215014290079A0FD /* DBEntry+CoreDataProperties.swift */; };
+		43B107452203D4290041667B /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B107442203D4290041667B /* keys.plist */; };
+		43B107472203E1700041667B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 43B107462203E1700041667B /* .gitignore */; };
+		43B1074B2203E50C0041667B /* db.csv in Resources */ = {isa = PBXBuildFile; fileRef = 43B1074A2203E50C0041667B /* db.csv */; };
+		43BF41842142E382009B360E /* IsItYacht.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BF41832142E382009B360E /* IsItYacht.swift */; };
+		43DD11EF21471BDD002ED083 /* HistoryEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD11ED21471BDD002ED083 /* HistoryEntry+CoreDataClass.swift */; };
+		43DD11F021471BDD002ED083 /* HistoryEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DD11EE21471BDD002ED083 /* HistoryEntry+CoreDataProperties.swift */; };
+		43F30CA42141D00200DB6F61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F30CA32141D00200DB6F61 /* AppDelegate.swift */; };
+		43F30CA62141D00200DB6F61 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F30CA52141D00200DB6F61 /* RecordingViewController.swift */; };
+		43F30CA82141D00200DB6F61 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F30CA72141D00200DB6F61 /* HistoryViewController.swift */; };
+		43F30CAB2141D00200DB6F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F30CA92141D00200DB6F61 /* Main.storyboard */; };
+		43F30CAD2141D00300DB6F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F30CAC2141D00300DB6F61 /* Assets.xcassets */; };
+		43F30CB02141D00300DB6F61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F30CAE2141D00300DB6F61 /* LaunchScreen.storyboard */; };
+		43F30CBB2141D1FC00DB6F61 /* DBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43F30CB72141D1FC00DB6F61 /* DBModel.xcdatamodeld */; };
+		43F30CBC2141D1FC00DB6F61 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 43F30CB92141D1FC00DB6F61 /* Podfile */; };
+		43F30CC42141D34300DB6F61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F30CC32141D34200DB6F61 /* AVFoundation.framework */; };
+		43F30CC62141D34900DB6F61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F30CC52141D34900DB6F61 /* Security.framework */; };
+		43F30CC82141D35000DB6F61 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F30CC72141D35000DB6F61 /* AudioToolbox.framework */; };
+		43F30CCA2141D35800DB6F61 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F30CC92141D35800DB6F61 /* libc++.tbd */; };
+		43F30CCC2141D38D00DB6F61 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F30CCB2141D38D00DB6F61 /* ResultViewController.swift */; };
+		56F55F19C7DDF052C24256CA /* Pods_IsItYacht.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984B862875B338244FF12130 /* Pods_IsItYacht.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		345013F4FA43328A6C3CC72B /* Pods-IsItYacht.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsItYacht.release.xcconfig"; path = "Pods/Target Support Files/Pods-IsItYacht/Pods-IsItYacht.release.xcconfig"; sourceTree = "<group>"; };
+		431074BB214D70610082B5FB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		43210144214F588000652763 /* db.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = db.plist; sourceTree = "<group>"; };
+		43210146214F5BCA00652763 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		434484912148B3E400C080DE /* DBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBViewController.swift; sourceTree = "<group>"; };
+		43939B0C215014290079A0FD /* DBEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		43939B0D215014290079A0FD /* DBEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		43B107442203D4290041667B /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		43B107462203E1700041667B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		43B1074A2203E50C0041667B /* db.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db.csv; sourceTree = "<group>"; };
+		43BF41832142E382009B360E /* IsItYacht.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsItYacht.swift; sourceTree = "<group>"; };
+		43DD11ED21471BDD002ED083 /* HistoryEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		43DD11EE21471BDD002ED083 /* HistoryEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		43F30CA02141D00200DB6F61 /* IsItYacht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsItYacht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F30CA32141D00200DB6F61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F30CA52141D00200DB6F61 /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		43F30CA72141D00200DB6F61 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		43F30CAA2141D00200DB6F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F30CAC2141D00300DB6F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F30CAF2141D00300DB6F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43F30CB12141D00300DB6F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F30CB82141D1FC00DB6F61 /* DBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DBModel.xcdatamodel; sourceTree = "<group>"; };
+		43F30CB92141D1FC00DB6F61 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43F30CBE2141D23100DB6F61 /* ACRCloudConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
+		43F30CBF2141D23100DB6F61 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
+		43F30CC12141D33C00DB6F61 /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = "<group>"; };
+		43F30CC32141D34200DB6F61 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43F30CC52141D34900DB6F61 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		43F30CC72141D35000DB6F61 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		43F30CC92141D35800DB6F61 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		43F30CCB2141D38D00DB6F61 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		43F30CCF2141D43400DB6F61 /* IsItYacht_Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IsItYacht_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		984B862875B338244FF12130 /* Pods_IsItYacht.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IsItYacht.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF92C330D5402BFD452B3E79 /* Pods-IsItYacht.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IsItYacht.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IsItYacht/Pods-IsItYacht.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F30C9D2141D00200DB6F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431A26952141D8E60058EF4E /* libACRCloud_IOS_SDK.a in Frameworks */,
+				43F30CCA2141D35800DB6F61 /* libc++.tbd in Frameworks */,
+				43F30CC82141D35000DB6F61 /* AudioToolbox.framework in Frameworks */,
+				43F30CC62141D34900DB6F61 /* Security.framework in Frameworks */,
+				43F30CC42141D34300DB6F61 /* AVFoundation.framework in Frameworks */,
+				56F55F19C7DDF052C24256CA /* Pods_IsItYacht.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F30C972141D00200DB6F61 = {
+			isa = PBXGroup;
+			children = (
+				43B107462203E1700041667B /* .gitignore */,
+				43B1074A2203E50C0041667B /* db.csv */,
+				43F30CB92141D1FC00DB6F61 /* Podfile */,
+				43F30CA22141D00200DB6F61 /* IsItYacht */,
+				43F30CA12141D00200DB6F61 /* Products */,
+				43F30CC02141D33B00DB6F61 /* Frameworks */,
+				A4BFA5F4C523668BB16DB82B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		43F30CA12141D00200DB6F61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F30CA02141D00200DB6F61 /* IsItYacht.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F30CA22141D00200DB6F61 /* IsItYacht */ = {
+			isa = PBXGroup;
+			children = (
+				43939B0C215014290079A0FD /* DBEntry+CoreDataClass.swift */,
+				43939B0D215014290079A0FD /* DBEntry+CoreDataProperties.swift */,
+				43DD11ED21471BDD002ED083 /* HistoryEntry+CoreDataClass.swift */,
+				43DD11EE21471BDD002ED083 /* HistoryEntry+CoreDataProperties.swift */,
+				43F30CBE2141D23100DB6F61 /* ACRCloudConfig.h */,
+				43F30CBF2141D23100DB6F61 /* ACRCloudRecognition.h */,
+				43B107442203D4290041667B /* keys.plist */,
+				43F30CCF2141D43400DB6F61 /* IsItYacht_Swift-Bridging-Header.h */,
+				43BF41832142E382009B360E /* IsItYacht.swift */,
+				43F30CA32141D00200DB6F61 /* AppDelegate.swift */,
+				43F30CA52141D00200DB6F61 /* RecordingViewController.swift */,
+				43F30CA72141D00200DB6F61 /* HistoryViewController.swift */,
+				43F30CCB2141D38D00DB6F61 /* ResultViewController.swift */,
+				434484912148B3E400C080DE /* DBViewController.swift */,
+				431074BB214D70610082B5FB /* Song.swift */,
+				43210146214F5BCA00652763 /* SongCell.swift */,
+				43F30CA92141D00200DB6F61 /* Main.storyboard */,
+				43F30CB72141D1FC00DB6F61 /* DBModel.xcdatamodeld */,
+				43210144214F588000652763 /* db.plist */,
+				43F30CAC2141D00300DB6F61 /* Assets.xcassets */,
+				43F30CAE2141D00300DB6F61 /* LaunchScreen.storyboard */,
+				43F30CB12141D00300DB6F61 /* Info.plist */,
+			);
+			path = IsItYacht;
+			sourceTree = "<group>";
+		};
+		43F30CC02141D33B00DB6F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43F30CC92141D35800DB6F61 /* libc++.tbd */,
+				43F30CC72141D35000DB6F61 /* AudioToolbox.framework */,
+				43F30CC52141D34900DB6F61 /* Security.framework */,
+				43F30CC32141D34200DB6F61 /* AVFoundation.framework */,
+				43F30CC12141D33C00DB6F61 /* libACRCloud_IOS_SDK.a */,
+				984B862875B338244FF12130 /* Pods_IsItYacht.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4BFA5F4C523668BB16DB82B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF92C330D5402BFD452B3E79 /* Pods-IsItYacht.debug.xcconfig */,
+				345013F4FA43328A6C3CC72B /* Pods-IsItYacht.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F30C9F2141D00200DB6F61 /* IsItYacht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F30CB42141D00300DB6F61 /* Build configuration list for PBXNativeTarget "IsItYacht" */;
+			buildPhases = (
+				B36B5D79CEBA5C18E4EA0710 /* [CP] Check Pods Manifest.lock */,
+				43F30C9C2141D00200DB6F61 /* Sources */,
+				43F30C9D2141D00200DB6F61 /* Frameworks */,
+				43F30C9E2141D00200DB6F61 /* Resources */,
+				3923A2323AE9A229447FD57A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IsItYacht;
+			productName = IsItYacht;
+			productReference = 43F30CA02141D00200DB6F61 /* IsItYacht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F30C982141D00200DB6F61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Evan Cole";
+				TargetAttributes = {
+					43F30C9F2141D00200DB6F61 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 43F30C9B2141D00200DB6F61 /* Build configuration list for PBXProject "IsItYacht" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F30C972141D00200DB6F61;
+			productRefGroup = 43F30CA12141D00200DB6F61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F30C9F2141D00200DB6F61 /* IsItYacht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F30C9E2141D00200DB6F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B107472203E1700041667B /* .gitignore in Resources */,
+				43B107452203D4290041667B /* keys.plist in Resources */,
+				43F30CB02141D00300DB6F61 /* LaunchScreen.storyboard in Resources */,
+				43F30CAD2141D00300DB6F61 /* Assets.xcassets in Resources */,
+				43F30CBC2141D1FC00DB6F61 /* Podfile in Resources */,
+				43210145214F588000652763 /* db.plist in Resources */,
+				43B1074B2203E50C0041667B /* db.csv in Resources */,
+				43F30CAB2141D00200DB6F61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3923A2323AE9A229447FD57A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IsItYacht/Pods-IsItYacht-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IsItYacht/Pods-IsItYacht-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36B5D79CEBA5C18E4EA0710 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IsItYacht-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F30C9C2141D00200DB6F61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DD11EF21471BDD002ED083 /* HistoryEntry+CoreDataClass.swift in Sources */,
+				43210147214F5BCA00652763 /* SongCell.swift in Sources */,
+				43F30CCC2141D38D00DB6F61 /* ResultViewController.swift in Sources */,
+				43F30CA82141D00200DB6F61 /* HistoryViewController.swift in Sources */,
+				43BF41842142E382009B360E /* IsItYacht.swift in Sources */,
+				431074BC214D70610082B5FB /* Song.swift in Sources */,
+				43939B0E215014290079A0FD /* DBEntry+CoreDataClass.swift in Sources */,
+				43939B0F215014290079A0FD /* DBEntry+CoreDataProperties.swift in Sources */,
+				434484922148B3E400C080DE /* DBViewController.swift in Sources */,
+				43F30CA42141D00200DB6F61 /* AppDelegate.swift in Sources */,
+				43F30CA62141D00200DB6F61 /* RecordingViewController.swift in Sources */,
+				43F30CBB2141D1FC00DB6F61 /* DBModel.xcdatamodeld in Sources */,
+				43DD11F021471BDD002ED083 /* HistoryEntry+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43F30CA92141D00200DB6F61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F30CAA2141D00200DB6F61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43F30CAE2141D00300DB6F61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F30CAF2141D00300DB6F61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F30CB22141D00300DB6F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F30CB32141D00300DB6F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F30CB52141D00300DB6F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF92C330D5402BFD452B3E79 /* Pods-IsItYacht.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9U854ALUS;
+				INFOPLIST_FILE = IsItYacht/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EC.IsItYacht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ecole96/Desktop/IsItYacht/IsItYacht/IsItYacht_Swift-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F30CB62141D00300DB6F61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345013F4FA43328A6C3CC72B /* Pods-IsItYacht.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9U854ALUS;
+				INFOPLIST_FILE = IsItYacht/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EC.IsItYacht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ecole96/Desktop/IsItYacht/IsItYacht/IsItYacht_Swift-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F30C9B2141D00200DB6F61 /* Build configuration list for PBXProject "IsItYacht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F30CB22141D00300DB6F61 /* Debug */,
+				43F30CB32141D00300DB6F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F30CB42141D00300DB6F61 /* Build configuration list for PBXNativeTarget "IsItYacht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F30CB52141D00300DB6F61 /* Debug */,
+				43F30CB62141D00300DB6F61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43F30CB72141D1FC00DB6F61 /* DBModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43F30CB82141D1FC00DB6F61 /* DBModel.xcdatamodel */,
+			);
+			currentVersion = 43F30CB82141D1FC00DB6F61 /* DBModel.xcdatamodel */;
+			path = DBModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43F30C982141D00200DB6F61 /* Project object */;
+}
