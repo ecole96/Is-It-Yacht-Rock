@@ -11,6 +11,7 @@
 		431A26952141D8E60058EF4E /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F30CC12141D33C00DB6F61 /* libACRCloud_IOS_SDK.a */; };
 		43210145214F588000652763 /* db.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43210144214F588000652763 /* db.plist */; };
 		43210147214F5BCA00652763 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43210146214F5BCA00652763 /* SongCell.swift */; };
+		4324F4512206277F003BB5FE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4324F4502206277F003BB5FE /* README.md */; };
 		434484922148B3E400C080DE /* DBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434484912148B3E400C080DE /* DBViewController.swift */; };
 		43939B0E215014290079A0FD /* DBEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939B0C215014290079A0FD /* DBEntry+CoreDataClass.swift */; };
 		43939B0F215014290079A0FD /* DBEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43939B0D215014290079A0FD /* DBEntry+CoreDataProperties.swift */; };
@@ -41,6 +42,7 @@
 		431074BB214D70610082B5FB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		43210144214F588000652763 /* db.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = db.plist; sourceTree = "<group>"; };
 		43210146214F5BCA00652763 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		4324F4502206277F003BB5FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		434484912148B3E400C080DE /* DBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBViewController.swift; sourceTree = "<group>"; };
 		43939B0C215014290079A0FD /* DBEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
 		43939B0D215014290079A0FD /* DBEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				43B107442203D4290041667B /* keys.plist */,
 				43F30CCF2141D43400DB6F61 /* IsItYacht_Swift-Bridging-Header.h */,
 				43BF41832142E382009B360E /* IsItYacht.swift */,
+				4324F4502206277F003BB5FE /* README.md */,
 				43F30CA32141D00200DB6F61 /* AppDelegate.swift */,
 				43F30CA52141D00200DB6F61 /* RecordingViewController.swift */,
 				43F30CA72141D00200DB6F61 /* HistoryViewController.swift */,
@@ -229,6 +232,7 @@
 				43F30CAD2141D00300DB6F61 /* Assets.xcassets in Resources */,
 				43F30CBC2141D1FC00DB6F61 /* Podfile in Resources */,
 				43210145214F588000652763 /* db.plist in Resources */,
+				4324F4512206277F003BB5FE /* README.md in Resources */,
 				43B1074B2203E50C0041667B /* db.csv in Resources */,
 				43F30CAB2141D00200DB6F61 /* Main.storyboard in Resources */,
 			);
