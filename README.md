@@ -1,8 +1,8 @@
 Back in the fall I wanted to give iOS development a try and was in the middle of a "yacht rock" listening kick - if you don't know what that is, educate yourself:
 
-https://en.wikipedia.org/wiki/Yacht_rock
-http://www.yachtrock.com/
-http://www.yachtornyacht.com/
+* https://en.wikipedia.org/wiki/Yacht_rock
+* http://www.yachtrock.com/
+* http://www.yachtornyacht.com/
 
 In the midst of this phase, I got the idea to develop an app that tells you if a song is "yacht rock" or not, identifying the song (like Shazam) and checking it against the database of "certified yacht" songs.  So, I made this my first real app. It has the following capabilities:
 * Record and identify a song's "yachtski" status (if not in the database, returns "Unknown" - but given how narrow the genre is, it's probably "nyacht")
